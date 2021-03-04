@@ -1,0 +1,17 @@
+name: LearningTensorflow
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.7
+  - pip
+  - jupyterlab
+  - numpy
+  - matplotlib
+  - seaborn
+  - pip:
+    - tensorflow
+    - tensorflow-datasets
+    - tensorflow-addons
+variables:
+  
